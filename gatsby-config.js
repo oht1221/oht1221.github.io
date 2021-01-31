@@ -6,7 +6,10 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    //siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: 'NHN Rookie 8th Basecamp page - Hongtaek Oh',
+    siteURL: 'https://oht1221.github.io',
+    author: "Hongtaek Oh"
   },
   plugins: [
     {
@@ -25,13 +28,9 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
-          },
+            name: "Github",
+            url: "https://github.com/oht1221",
+          }
         ],
       },
     },
