@@ -217,6 +217,12 @@ const code = {
   ".react-live-wrapper .code-copy-button": {
     right: [0, 0, 0, -3],
   },
+  ".utterances": {
+    maxWidth: '100% !important',
+    borderTop: '1px solid black',
+    paddingTop: '2rem',
+    marginTop:'3rem'
+  }
 }
 
 export default code
