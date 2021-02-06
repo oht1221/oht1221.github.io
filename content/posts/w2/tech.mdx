@@ -4,12 +4,59 @@ date: 2020-02-05
 tags:
   - NHN Basecamp
 ---
-# 자바스크립트의 이벤트 전달 방식 - 버블링, 캡쳐링
-
+<br/>
+## 자바스크립트의 이벤트 전달 방식 - 버블링, 캡쳐링
+---
 &nbsp; 웹 페이지 상에서 클릭을 하거나 어떠한 액션을 취했을 때 경고창을 띄우거나 배경색이 변하는 등의 동작을 통해서 사용자와 interactive하게 동작하게 할 수 있는 방법 중 하나가 바로 자바스크립트의 이벤트 핸들링이다. 이러한 이벤트는 브라우져 상에서 일어난 액션을 DOM객체를 통해서 자바스크립트가 핸들링하게 되는데 이 때 발생한 이벤트가 DOM tree 상에서 전파되는 방향에 따라 버블링과 캡쳐링으로 나뉘어진다.
 
+### 1. DOM(Document Object Model) tree
+---
+&nbsp;DOM은 이 HTML 문서의 구성요소를 자바스크립트가 다룰 수 있게해주는 객체로 한마디로 HTML의 자바스크립트상으로의 투영이라고 할 수 있다. 자바스크립트에서는 이 DOM을 통해 HTML 문서에 다양한 액션을 취할 수 있다.
 
+&nbsp;DOM tree는 HTML 문서의 계층구조를 DOM으로 옮겨놓은 것이라고 생각할 수 있다. 즉 자바스크립트에서는 DOM tree를 이용하여 HTML의 계층 구조에 접근할 수 있고 그래서 DOM tree를 이용하여 HTML의 계층구조를 넘나들 수 있으며, 이를 통해서 HTML에 요소에 움직임을 주거나 요소를 추가/삭제하는 등의 동적인 변화를 줄 수 있다.
 
-## 1. DOM tree
+### 2. 이벤트의 발생
+---
+&nbsp;브라우져상에서 일어나는 이벤트와 상호 작용을 하기 위해서는 먼저 브라우져가 이 이벤트를 인식할 수 있어야한다. 이벤트를 인식한다는 것은 '어떤' 이벤트가 '어디에' 일어났는 가를 인식한다는 뜻이라고 할 수 있을 것이다. 여기서 '어떤'에는 대표적으로 클릭 이벤트를 생각할 수 있다. 이 포스팅에서는 '어디'에 포커스를 맞춰 작성할 것인데 이 '어디'라는 것은 이 이벤트가 HTML문서 상의 태그(계층)상의 어떤 지점에서 일어났는지를 뜻하는 것이다. 우선 이것이 파악되면 그 태그에 해당하는 DOM 요소를 통해서 자바스크립트 또한 그 이벤트를 핸들링할 수 있다.
 
-&nbsp; HTML 문서는 계층구조로 이루어져있다. 그 중에서 브라우져 화면에 표시되는 부분을 다루는 
+### 3. 이벤트 캡쳐링과 버블링
+---
+&nbsp;브라우져 상의 위치는 HTML 문서 상의 특정 태그에 해당한다. 그런데 어떠한 태그는 또 다른 태그의 하위에 있고, 그래서 A라는 태그에 이벤트가 일어나면 사실 그 태그를 포함하고 있는 상위의 B라는 태그에도 이벤트가 일어난 것이라고 볼 수 있다. B라는 태그가 A를 포함하고 있기 때문이다. 그래서 어떤 이벤트가 발생하면 필연적으로 복수 개의 DOM 요소가 영향을 받게되고(모든 요소들의 상위에 있는 최상위 노드가 항상 존재 하므로) 자바스크립트에서는 이러한 모든 DOM element들 사이의 이벤트'흐름'이 발생한다. 이 DOM element들 중에서 최상위에 있는 element는 실제 이벤트가 일어난 요소(target)의 정보를 알고 있고 그래서 이 최상위 element 부터 target element까지의 이벤트 전달 흐름이 먼저 일어나는데 이를 이벤트 캡쳐링이라고한다. 그리고 target까지 전달된 이벤트는 다시 한 번 최상위 element로 전달되는데 이를 이벤트 버블링이라고 한다.
+<figure>
+  <center> 
+    <img src='https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107/images/eventflow.png'/> 
+    <figcaption>
+      <br/>
+      W3C에서 설명하는 이벤트 캡쳐링, 버블링(출처 : https://www.w3.org/TR/DOM-Level-3-Events/)
+    </figcaption>
+  </center>
+</figure> <br/>
+&nbsp;자바스크립트에서는 이벤트 핸들러를 등록할 때 캡쳐링 단계와 버블링 단계 중 어떤 단계에서 이벤트를 다룰 지 선택할 수 있다. 예를 들어 이벤트 등록 API 함수 중 하나인 addEventListener의 경우 세 번째 파라미터로 기본 값이 false로 설정된 boolean 값을 받는데 false인 경우 버블링 단계에서 이벤트를 핸들하고 true인 경우 캡쳐링 단계에서 이벤트를 핸들한다. 그래서 이 세 번째 인자를 주지 않으면 기본적으로는 이벤트 버블링 단계에서 핸들링하게된다. 예를 들어 아래와 같은 html 문서와 자바스크립트 코드가 있을 때,
+
+```
+<body>
+  <div id="mid">
+    <button id="bot"> button </button>
+  </div>
+</body>
+```
+<br/>
+
+```
+document.getElementById('bot').addEventListener("click", 
+                    (ev) => { alert("this is bot"); });
+document.getElementById('mid').addEventListener("click", 
+                    (ev) => { alert("this is mid"); });
+```
+
+버튼을 클릭하면 this is bot 경고창이 먼저 뜨고 그 후에 this is mid 경고창이 뜨게 된다.
+
+```
+document.getElementById('bot').addEventListener("click", 
+                    (ev) => { alert("this is bot"); });
+document.getElementById('mid').addEventListener("click", 
+                    (ev) => { alert("this is mid"); },
+                                               true);
+
+```
+만약 위와 같이 코드를 수정하게 되면 id가 mid인 요소의 경우 캡쳐링 단계에서 이벤트 핸들링이 작동하여 this is mid가 먼저 나타나고 그 후에 this is bot 경고창이 나타나게 된다.
