@@ -62,6 +62,15 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-5abd719df9616777a0b2.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
+/basecamp-7-주차-회고
+  Link: </webpack-runtime-5e1b09cdd7e7d4a5ff21.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-c2b5b87fe0469ebae810.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-031c6f568b0f31722e0e.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/basecamp-7-주차-회고/page-data.json>; rel=preload; as=fetch; crossorigin
 /basecamp-7-주차-fe-코드-리뷰-정리
   Link: </webpack-runtime-5e1b09cdd7e7d4a5ff21.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
