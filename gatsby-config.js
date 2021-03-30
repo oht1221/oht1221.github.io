@@ -7,7 +7,6 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
   siteMetadata: {
     //siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    
     siteTitle: 'NHN Rookie 8th Basecamp page - Hongtaek Oh',
     siteURL: 'https://oht1221.github.io',
     author: "Hongtaek Oh"
@@ -15,7 +14,7 @@ module.exports = {
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
-      // See the theme's REAsDME for all available options
+      // See the theme's README for all available options
       options: {
         navigation: [
           {
