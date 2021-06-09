@@ -3,8 +3,8 @@
 <url> <loc>https://minimal-blog.lekoarts.de/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-1-생성자-대신-정적-팩터리-메서드-사용</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-2-매개-변수-많을-시-빌더-패턴</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-1-생성자-대신-정적-팩터리-메서드-사용</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/basecamp-마지막-주-회고</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/basecamp-마지막주</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/basecamp-7-주차-회고</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
