@@ -6,6 +6,7 @@
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-10-equals-to-구현</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-12-to-string을-항상-재정의</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-14-comparable-구현</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-11-equals를-재정의했다면-hash-code도</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-2-매개-변수-많을-시-빌더-패턴</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-item-1-생성자-대신-정적-팩터리-메서드-사용</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/basecamp-마지막-주-회고</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -24,6 +25,7 @@
 <url> <loc>https://minimal-blog.lekoarts.de/tags/compare-to</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/effectivejava</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/equals-to</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/tags/hash-code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/static-factory-method</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/to-string</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/빌더-패턴</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
