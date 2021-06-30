@@ -1,0 +1,48 @@
+---
+title: "[이펙티브 자바 요약] item 1 - 생성자 대신 정적 팩터리 메서드 사용"
+date: 2020-06-07
+tags:
+  - 이펙티브자바
+  - effectivejava
+  - 정적팩터리메서드
+  - static factory method
+---
+##  Item 1 : 생성자 대신 static factory method(정적 팩터리 메서드)
+
+ 이 글은 'Effective Java 3판'(출판사 : 프로그래밍 인사이트, 저자 : Joshua Bloch, 역자 : 개앞맵시(이복연)) 을 읽고 내용을 정리한 글입니다. 문제가 될 시 삭제하겠습니다.
+
+정적 팩터리 메서드를 사용하면 다음과 같은 장점이 있다.
+
+> 1. 이름을 가질 수 있다 
+
+ 그저 클래스 명과 이름이 같은 함수인 기본 public 생성자는 매개변수의 의미, 반환될 객체의 의미 등을 담기 어렵다. 잘 네이밍한 static factory method를 이용하면 그런 의미들을 잘 나타낼 수 있다. 예를 들어 기본타입 boolean을 박싱해주는 class인 Boolean의 static factory method 중 하나인 Boolean.valueOf가 있다.
+
+``` java
+public static Boolean valueOf(boolean b){
+    return b? Boolean.TRUE : Boolean.FALSE;
+}
+```
+
+ 또한 이름이 있으면 같은 signature를 가지는 여러 생성자를 이름만 다르게 하여 편하게 만들 수 있다.  같은 이름을 사용하는 클래스 생서자 함수로는 매개 변수 순서를 바꾸는 부자연 스러운 방법을 취해야한다.
+
+> 2. 호출될 때마다 새 인스턴스를 생성하지 않아도 된다.
+
+정확하게 무슨말인지 잘 모르겠음...
+
+> 3. 반환 타입의 하위 타입 객체를 반환할 수 있게 된다.
+
+ 대표적인 예로 Java의 Collections 프레임워크는 총 45개의 유틸리티 구현체들을 단 하나의 java.util.Collections에서 static factory method를 통해 얻도록한다. (모두 Collection으로 받을 수 있다...?) 역시 어떤 장점인지 완전히 이해가지 않는다...
+
+> 4. 입력 매개변수에 따라 매번 다른 클래스의 객체를 반환할 수 있다.
+
+ 하위 타입이기만 하면 어떤 클래스 객체를 반환해도 받아줄 수 있다. 예를 들면 EnumSet Class는 public 생성자 없이 오직 static factory method만 제공하는데 내부적으로 EnumSet의 원소 개수에 따라(?) RegularEnumSet 이나 JumboEnumSet 둘 중 하나를 반환하고 클라이언트(API 사용자)는 이를 알 필요가 없이 EnumSet으로 받을 수 있다.
+
+> 5. static factory method를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도 된다.
+
+서비스 제공자 프레임워크의(service provider framework) 근간... 뭔말이고...
+
+반면 단점도 존재하는데, 책에서 소개한 두 가지 중 첫 번째 단점은 크게 와닿지 않고, 두 번째 단점은 다음과 같다.
+
+> 프로그래머가 찾기 어렵다.
+
+ public 생성자 처럼 API설명에 명확하게 드러나지 않기 때문에 프로그래머가 잘 찾아서 사용해야하고, 그래서 API 문서를 잘 써놓고 메서드 이름을 널리 알려진 규약에 맞게 잘 지어야 한다.

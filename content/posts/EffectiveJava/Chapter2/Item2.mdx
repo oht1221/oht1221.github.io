@@ -1,0 +1,22 @@
+---
+title: "[이펙티브 자바 요약] item 2 - 매개 변수 많을 시 빌더 패턴"
+date: 2020-06-07
+tags:
+  - 이펙티브자바
+  - effectivejava
+  - 빌더 패턴
+  - builder pattern
+---
+
+## Item2 : 생성자에 매개변수가 많다면 builder를 고려
+
+static factory method에는 졔약 사항이 있는데, 선택적 매개변수가 많아지면 적절히 대응하기가 어렵다는 것이다. 이렇게 매개변수가 많을 때 객체 생성에 사용하는 패턴으로 telescoping constructor pattern(점층적 생성자 패턴)과 JavaBeans pattern이 있다. 
+
+ telescoping constructor pattern은 매개변수 개수 별로 생성자를 늘려가는 방식인데 이는 각 값의 의미가 헷갈리거나 매개 변수의 개수가 헷갈리는 등 가독성에 좋지 않은 영향을 끼친다. 또한 매개 변수 순서를 바꿔 입력해도 컴파일러에서 에러를 감지할 수 없기 때문에 의도하지 않은 동작을 하는 코드가 될 수 있다.
+
+ javaBeans pattern은 매개변수가 없는 생성자로 객체 생성 후 set함수로 멤버를 정해주는 패턴인데 이는 일단 함수의 호출의 너무 많아지고, 또 객체 생성 후 필요한 모든 멤버들이 set되기 전까지 일관성(consistency)이 무너진 상태를 만든다. (객체 생성부터 값 설정이 완료되는 시점 사이???)
+
+### Builder 패턴
+
+ 위와 같은 단점을 피할 수 있는 방법으로 builder 패턴이 있다. 
+

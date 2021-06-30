@@ -1,0 +1,11 @@
+---
+title: "[이펙티브 자바 요약] item 11 - equals를 재정의했다면 hashCode도!"
+date: 2020-06-16
+tags:
+  - 이펙티브자바
+  - effectivejava
+  - hashCode
+---
+ 이 글은 'Effective Java 3판'(출판사 : 프로그래밍 인사이트, 저자 : Joshua Bloch, 역자 : 개앞맵시(이복연)) 을 읽고 내용을 정리한 글입니다. 문제가 될 시 삭제하겠습니다.
+## Item 11 equals를 재정의했다면 hashCode도!
+ equals를 재정의 했다면 이에 따라서 hashCode도 재정의해줘야하는데, hashCode자체가 동치성에 기반을 두고있기 때문이다. hashCode를 equals에 맞게 재정의해주지 않으면 equals는 논리적 값에 알맞게 비교하지만 hashCode는 물리적 값(객체 참조값?)을 이용해 만들어내기 때문에 논리적으로 같은 두 객체가 서로 다른 hashCode 반환 값을 갖고 이는 프로그램의 논리에 문제를 일으킨다. 따라서 equals를 재정의했다면 동치인 인스턴스에 대해 똑같은 해시 코드를 반환할 수 있도록 hashCode또한 재정의 해줘야 논리적으로 오류가 없어진다.
