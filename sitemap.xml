@@ -3,6 +3,7 @@
 <url> <loc>https://minimal-blog.lekoarts.de/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-chapter-8-method</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-chapter-7-lambda와-stream</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-chapter-6-enum과-annotation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/이펙티브-자바-요약-chapter-5-제네릭</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -40,6 +41,7 @@
 <url> <loc>https://minimal-blog.lekoarts.de/tags/hash-code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/interface</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/labdma</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/tags/method</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/static-factory-method</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/stream</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/to-string</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
