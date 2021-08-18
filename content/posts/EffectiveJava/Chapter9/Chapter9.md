@@ -15,6 +15,7 @@ tags:
 
 
 
+
 ---
 
  이 글은 'Effective Java 3판'(출판사 : 프로그래밍 인사이트, 저자 : Joshua Bloch, 역자 : 개앞맵시(이복연)) 을 읽고 내용을 정리한 글입니다. 문제가 될 시 삭제하겠습니다.
@@ -41,6 +42,7 @@ tags:
   for (int i = 0, n = expensiveComputation(); i < n; i++) {
     ... //i로 무언가 처리
   }
+  ```
 
 - <strong>메서드를 작게 유지하고 한 가지 기능에 집중하면 지역 변수 범위를 줄일 수 있다.</strong>
 

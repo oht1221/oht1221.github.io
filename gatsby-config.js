@@ -7,7 +7,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
   siteMetadata: {
     //siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteTitle: 'NHN Rookie 8th Basecamp page - Hongtaek Oh',
+    siteTitle: 'Blong',
     siteURL: 'https://oht1221.github.io',
     author: "Hongtaek Oh"
   },
