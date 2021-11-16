@@ -80,6 +80,15 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-031c6f568b0f31722e0e.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/json-이란/page-data.json>; rel=preload; as=fetch; crossorigin
+/친절한-sql-튜닝-정리-인덱스
+  Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-031c6f568b0f31722e0e.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/친절한-sql-튜닝-정리-인덱스/page-data.json>; rel=preload; as=fetch; crossorigin
 /odbc-open-database-connectivity-란
   Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
@@ -314,6 +323,15 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-79a3ca460c8bfe35e115.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/about/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/db
+  Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/db/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/json
   Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
@@ -359,6 +377,24 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/odbc/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/sql
+  Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/sql/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/sql튜닝
+  Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/sql튜닝/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/annotation
   Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
@@ -566,6 +602,15 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/hash-code/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/index
+  Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/index/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/interface
   Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
@@ -737,6 +782,24 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/이펙티브자바/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/인덱스
+  Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/인덱스/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/인덱스-튜닝
+  Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/인덱스-튜닝/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/일반적인-프로그래밍-원칙
   Link: </webpack-runtime-6e7fd544931f15d23aa2.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
