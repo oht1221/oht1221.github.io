@@ -62,7 +62,7 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-5abd719df9616777a0b2.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
-/programatic-programer-ch-1
+/programmatic-programmer-pt-2
   Link: </webpack-runtime-d6dfb4bedf301796c3e4.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
   Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
@@ -70,7 +70,16 @@
   Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-9549e71da1acbaab73d0.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/programatic-programer-ch-1/page-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/programmatic-programmer-pt-2/page-data.json>; rel=preload; as=fetch; crossorigin
+/programmatic-programmer-pt-1
+  Link: </webpack-runtime-d6dfb4bedf301796c3e4.js>; rel=preload; as=script
+  Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
+  Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-9549e71da1acbaab73d0.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/programmatic-programmer-pt-1/page-data.json>; rel=preload; as=fetch; crossorigin
 /친절한-sql-튜닝-정리-인덱스
   Link: </webpack-runtime-d6dfb4bedf301796c3e4.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
@@ -656,7 +665,7 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/method/page-data.json>; rel=preload; as=fetch; crossorigin
-/tags/programatic
+/tags/programmatic
   Link: </webpack-runtime-d6dfb4bedf301796c3e4.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
   Link: </app-05510e595c0bb46960b5.js>; rel=preload; as=script
@@ -664,7 +673,7 @@
   Link: </aed2e917f30c051bccba91aa15989a75fd0bd633-a0045de65bbb0debaae6.js>; rel=preload; as=script
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-14d6fc48bfe09fd25a2f.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/tags/programatic/page-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/programmatic/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/programmer
   Link: </webpack-runtime-d6dfb4bedf301796c3e4.js>; rel=preload; as=script
   Link: </framework-cd3e1e804d552fa282ef.js>; rel=preload; as=script
