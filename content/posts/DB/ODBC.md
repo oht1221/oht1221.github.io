@@ -1,7 +1,7 @@
 ---
 title: "ODBC(Open Database Connectivity)란?"
 
-date: "2020-09-14"
+date: "2021-09-14"
 
 tags:
 
