@@ -26,6 +26,9 @@
     "gatsby-plugin-offline": "^3.3.3",
     "gatsby-plugin-sitemap": "^2.5.1",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.13",
+    "gatsby-remark-katex": "^6.1.0",
+    "gatsby-transformer-remark": "^5.1.4",
+    "katex": "^0.15.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

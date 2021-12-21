@@ -6,6 +6,7 @@ import Layout from "./layout"
 import ItemTags from "./item-tags"
 import SEO from "./seo"
 import Utterances from "./Utterances"
+import "katex/dist/katex.min.css"
 
 type PostProps = {
   data: {
